@@ -1,0 +1,104 @@
+.pagination-container{
+    padding: 100px 76px;
+}
+.pagination-heading{
+    font-family: Source Sans Pro,sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 42px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    color: #0E2368;
+}
+
+.parent {
+    display: flex;
+    width: 100%;
+    gap: 15px;
+    transition: transform 0.3s;
+  }
+  
+  .pagination-card {
+    flex: 0 0 33%;
+    box-sizing: border-box;
+    padding: 28px;
+    margin-top: 50px;
+    border: 1.37px solid #93A2D361;
+    border-radius: 20.94px;
+    transition: transform 0.3s;
+
+
+  }
+  
+  
+.pagination-box-heading{
+    font-family: Poppins,sans-serif;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+    color:#0E2368;
+  }
+.pagination-box-subheading{
+    font-family: Open Sans,sans-serif;
+font-size: 15px;
+font-weight: 400;
+line-height: 27px;
+letter-spacing: -0.02em;
+text-align: left;
+
+    
+    color:#444957;
+    
+    padding: 15px 0;
+  }
+
+  .pagination-box-button{
+    border: 1px solid #424961;
+    padding: 3px 26px;
+    border-radius: 24px;
+    font-family: Source Sans Pro,sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: 0.03em;
+    text-align: left;
+  }
+
+  .pagination-button{
+    border: 1px solid #424961;
+    padding: 5px;
+    border-radius: 5px;
+  }
+
+  @media (max-width: 768px) {
+    .pagination-container{
+        padding: 70px 40px;
+    }
+    .parent {
+      flex-direction: column; /* Stack children vertically below 768px */
+    }
+    .pagination-card{
+        margin-top: 25px;
+    }
+    .pagination-card img{
+        display: flex;
+        justify-content: center;
+    }
+    .pagination-box-heading{
+        font-family: Poppins,sans-serif;
+font-size: 16px;
+font-weight: 700;
+line-height: 35px;
+letter-spacing: 0.05em;
+
+    }
+    .pagination-heading{
+        font-family: Poppins,sans-serif;
+        font-size: 32px;
+
+        
+      }
+  }
